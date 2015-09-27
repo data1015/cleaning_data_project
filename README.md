@@ -3,6 +3,11 @@
 
 The purpose of this project is to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
+##Files in this respository:
+* Code for this project is an R script: run_analysis.R in this respository
+* The tidy data created is located in the file: tidy_data_feature_mean_by_subject_activity.txt
+* The code book is located in the file: CodeBook.md
+
 ##Dataset:
 * The data files are from "Human Activity Recognition Using Smartphones Dataset", version 1. The data consists of information (features) collected from smartphones for 30 subjects who performed six activities. The data files are split across a number of files that are merged, labeled, melted and recast to allow mean calculations for the selected features.
 * See the CodeBook.md for details.
@@ -11,11 +16,6 @@ The purpose of this project is to collect, work with, and clean a data set. The 
 * Submit a tidy data set as described below
 * Link to a Github repository with your script for performing the analysis
 * Prepare a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data (CodeBook.md).
-
-##Files in this respository:
-* Code for this project is an R script: run_analysis.R in this respository
-* The tidy data created is located in the file: tidy_data_feature_mean_by_subject_activity.txt
-* The code book is located in the file: CodeBook.md
 
 ##Script Requirements:
 The R script does the following:
