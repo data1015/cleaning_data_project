@@ -131,7 +131,6 @@ The complete list of variables of each feature vector is available in 'features.
 
 ##Feature Column Names:
 |	Feature	|	Column Name	|
-|	Feature	|	Column Name	|
 |	--------------------------	|	--------------------------	|
 |	tBodyAcc-mean()-X	|	tBodyAcc-mean_-X	|
 |	tBodyAcc-mean()-Y	|	tBodyAcc-mean_-Y	|
