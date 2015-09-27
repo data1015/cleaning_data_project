@@ -115,11 +115,11 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 The complete list of variables of each feature vector is available in 'features.txt' in the dataset files.
 
-# Data elements used in this project
+# Data elements contained in the tidy data set file: tidy_data_feature_mean_by_subject_activity.txt
 
-##Subject_ID - number from 1-30 for 30 subjects
+##Subject_ID (number from 1-30 for 30 subjects)
 
-##Activity Labels:
+##Activit_Name (Activity Labels):
 * 1 WALKING
 * 2 WALKING_UPSTAIRS
 * 3 WALKING_DOWNSTAIRS
@@ -127,7 +127,7 @@ The complete list of variables of each feature vector is available in 'features.
 * 5 STANDING
 * 6 LAYING
 
-##Feature Column Names
+##Feature Column Names:
 |	Feature	|	Column Name	|
 |	--------------------------	|	--------------------------	|
 |	tBodyAcc-mean()-X	|	tBodyAcc.mean_.X	|
