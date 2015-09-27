@@ -125,7 +125,78 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroMean
 * tBodyGyroJerkMean
 
-The complete list of variables of each feature vector is available in 'features.txt'
+The complete list of variables of each feature vector is available in 'features.txt' in the dataset files.
+
+===================================
+##Feature Column Names
+|	Feature	|	Column Name	|
+|	--------------------------	|	--------------------------	|
+|	tBodyAcc-mean()-X	|	tBodyAcc.mean_.X	|
+|	tBodyAcc-mean()-Y	|	tBodyAcc.mean_.Y	|
+|	tBodyAcc-mean()-Z	|	tBodyAcc.mean_.Z	|
+|	tBodyAcc-std()-X	|	tGravityAcc.mean_.X	|
+|	tBodyAcc-std()-Y	|	tGravityAcc.mean_.Y	|
+|	tBodyAcc-std()-Z	|	tGravityAcc.mean_.Z	|
+|	tGravityAcc-mean()-X	|	tBodyAccJerk.mean_.X	|
+|	tGravityAcc-mean()-Y	|	tBodyAccJerk.mean_.Y	|
+|	tGravityAcc-mean()-Z	|	tBodyAccJerk.mean_.Z	|
+|	tGravityAcc-std()-X	|	tBodyGyro.mean_.X	|
+|	tGravityAcc-std()-Y	|	tBodyGyro.mean_.Y	|
+|	tGravityAcc-std()-Z	|	tBodyGyro.mean_.Z	|
+|	tBodyAccJerk-mean()-X	|	tBodyGyroJerk.mean_.X	|
+|	tBodyAccJerk-mean()-Y	|	tBodyGyroJerk.mean_.Y	|
+|	tBodyAccJerk-mean()-Z	|	tBodyGyroJerk.mean_.Z	|
+|	tBodyAccJerk-std()-X	|	tBodyAccMag.mean_	|
+|	tBodyAccJerk-std()-Y	|	tGravityAccMag.mean_	|
+|	tBodyAccJerk-std()-Z	|	tBodyAccJerkMag.mean_	|
+|	tBodyGyro-mean()-X	|	tBodyGyroMag.mean_	|
+|	tBodyGyro-mean()-Y	|	tBodyGyroJerkMag.mean_	|
+|	tBodyGyro-mean()-Z	|	fBodyAcc.mean_.X	|
+|	tBodyGyro-std()-X	|	fBodyAcc.mean_.Y	|
+|	tBodyGyro-std()-Y	|	fBodyAcc.mean_.Z	|
+|	tBodyGyro-std()-Z	|	fBodyAccJerk.mean_.X	|
+|	tBodyGyroJerk-mean()-X	|	fBodyAccJerk.mean_.Y	|
+|	tBodyGyroJerk-mean()-Y	|	fBodyAccJerk.mean_.Z	|
+|	tBodyGyroJerk-mean()-Z	|	fBodyGyro.mean_.X	|
+|	tBodyGyroJerk-std()-X	|	fBodyGyro.mean_.Y	|
+|	tBodyGyroJerk-std()-Y	|	fBodyGyro.mean_.Z	|
+|	tBodyGyroJerk-std()-Z	|	fBodyAccMag.mean_	|
+|	tBodyAccMag-mean()	|	fBodyBodyAccJerkMag.mean_	|
+|	tBodyAccMag-std()	|	fBodyBodyGyroMag.mean_	|
+|	tGravityAccMag-mean()	|	fBodyBodyGyroJerkMag.mean_	|
+|	tGravityAccMag-std()	|	tBodyAcc.std_.X	|
+|	tBodyAccJerkMag-mean()	|	tBodyAcc.std_.Y	|
+|	tBodyAccJerkMag-std()	|	tBodyAcc.std_.Z	|
+|	tBodyGyroMag-mean()	|	tGravityAcc.std_.X	|
+|	tBodyGyroMag-std()	|	tGravityAcc.std_.Y	|
+|	tBodyGyroJerkMag-mean()	|	tGravityAcc.std_.Z	|
+|	tBodyGyroJerkMag-std()	|	tBodyAccJerk.std_.X	|
+|	fBodyAcc-mean()-X	|	tBodyAccJerk.std_.Y	|
+|	fBodyAcc-mean()-Y	|	tBodyAccJerk.std_.Z	|
+|	fBodyAcc-mean()-Z	|	tBodyGyro.std_.X	|
+|	fBodyAcc-std()-X	|	tBodyGyro.std_.Y	|
+|	fBodyAcc-std()-Y	|	tBodyGyro.std_.Z	|
+|	fBodyAcc-std()-Z	|	tBodyGyroJerk.std_.X	|
+|	fBodyAccJerk-mean()-X	|	tBodyGyroJerk.std_.Y	|
+|	fBodyAccJerk-mean()-Y	|	tBodyGyroJerk.std_.Z	|
+|	fBodyAccJerk-mean()-Z	|	tBodyAccMag.std_	|
+|	fBodyAccJerk-std()-X	|	tGravityAccMag.std_	|
+|	fBodyAccJerk-std()-Y	|	tBodyAccJerkMag.std_	|
+|	fBodyAccJerk-std()-Z	|	tBodyGyroMag.std_	|
+|	fBodyGyro-mean()-X	|	tBodyGyroJerkMag.std_	|
+|	fBodyGyro-mean()-Y	|	fBodyAcc.std_.X	|
+|	fBodyGyro-mean()-Z	|	fBodyAcc.std_.Y	|
+|	fBodyGyro-std()-X	|	fBodyAcc.std_.Z	|
+|	fBodyGyro-std()-Y	|	fBodyAccJerk.std_.X	|
+|	fBodyGyro-std()-Z	|	fBodyAccJerk.std_.Y	|
+|	fBodyAccMag-mean()	|	fBodyAccJerk.std_.Z	|
+|	fBodyAccMag-std()	|	fBodyGyro.std_.X	|
+|	fBodyBodyAccJerkMag-mean()	|	fBodyGyro.std_.Y	|
+|	fBodyBodyAccJerkMag-std()	|	fBodyGyro.std_.Z	|
+|	fBodyBodyGyroMag-mean()	|	fBodyAccMag.std_	|
+|	fBodyBodyGyroMag-std()	|	fBodyBodyAccJerkMag.std_	|
+|	fBodyBodyGyroJerkMag-mean()	|	fBodyBodyGyroMag.std_	|
+|	fBodyBodyGyroJerkMag-std()	|	fBodyBodyGyroJerkMag.std_	|
 
 
 
