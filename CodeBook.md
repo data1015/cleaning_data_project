@@ -198,3 +198,17 @@ The complete list of variables of each feature vector is available in 'features.
 |	fBodyBodyGyroMag-std()	|	fBodyBodyGyroMag.std_	|
 |	fBodyBodyGyroJerkMag-mean()	|	fBodyBodyGyroJerkMag.mean_	|
 |	fBodyBodyGyroJerkMag-std()	|	fBodyBodyGyroJerkMag.std_	|
+
+## Feature selection
+* The features include measurements from several sensors on the smartphones.
+* The requirement is to extract the measurements on the mean and standard deviation for each measurement.
+*There are 561 measurements provided. 33 of these measurements included "mean()" in their name. 33 different measurements included "std()" in their name. These two sets of 33 measurements had identical names except for the "mean()" or "std() suffix. 20 additional measurements contained "mean" without "()". Given that there were 33 matched pairs of "mean()" and "std()" measurements, these 66 features were extracted for analysis.
+
+## Feature Column Naming Approach:
+* The feature names were changed minimally to maximize the mapping between the source feature labels.
+* However, the feature names included parentheses, dashes and commmas, which are not valid R variable names.
+* read.table converts these characters to "." if the column names are provided.
+* To distinguish the "()" in the tidy data, "(" are pre-converted to "_" and ")" are removed.
+* read.table converts the commas and dashes to dots.
+* Thus it is straighforward to map the column names to the source feature labels.
+
