@@ -57,18 +57,6 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 ==========================
-# Data elements
-
-Activity Labels:
-* 1 WALKING
-* 2 WALKING_UPSTAIRS
-* 3 WALKING_DOWNSTAIRS
-* 4 SITTING
-* 5 STANDING
-* 6 LAYING
-
-
-==========================
 ## Feature_info.txt information
 
 Feature Selection 
@@ -127,7 +115,18 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 The complete list of variables of each feature vector is available in 'features.txt' in the dataset files.
 
-===================================
+# Data elements used in this project
+
+##Subject_ID - number from 1-30 for 30 subjects
+
+##Activity Labels:
+* 1 WALKING
+* 2 WALKING_UPSTAIRS
+* 3 WALKING_DOWNSTAIRS
+* 4 SITTING
+* 5 STANDING
+* 6 LAYING
+
 ##Feature Column Names
 |	Feature	|	Column Name	|
 |	--------------------------	|	--------------------------	|
