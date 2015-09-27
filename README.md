@@ -4,7 +4,8 @@
 The purpose of this project is to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
 ##Dataset:
-The data files are from "Human Activity Recognition Using Smartphones Dataset", version 1. The data consists of information (features) collected from smartphones for 30 subjects who performed six activities. The data files are split across a number of files that are merged, labeled, melted and recast to allow mean calculations for the selected features.
+* The data files are from "Human Activity Recognition Using Smartphones Dataset", version 1. The data consists of information (features) collected from smartphones for 30 subjects who performed six activities. The data files are split across a number of files that are merged, labeled, melted and recast to allow mean calculations for the selected features.
+* See the CodeBook.md for details.
 
 ##Project Steps:
 * Submit a tidy data set as described below
