@@ -16,8 +16,10 @@ This script does the following:
 * Appropriately labels the data set with descriptive variable names. 
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The tidy data is located in a file: tidy_data_mean_aggregate.txt, also located in this directory.
-The code book is located in a file: CodeBook.md - also located in this directory.
+##Files in this respository:
+* Code for this project is an R script: run_analysis.R in this respository
+* The tidy data created is located in a file: tidy_data_mean_aggregate.txt
+* The code book is located in a file: CodeBook.md - also located in this directory.
 
 The data files are from "Human Activity Recognition Using Smartphones Dataset", version 1. The data consists of information collected from smartphones for 30 subjects who performed six activities. The data files are split across a number of files that are merged, labeled, melted and recast to allow mean calculations for the selected features.
 
