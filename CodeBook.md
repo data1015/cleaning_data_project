@@ -4,8 +4,7 @@
 * Knowledge of this data and its interpretation is limited to the data in these files.
 
 ## Source: - from README.txt file for dataset
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+Human Activity Recognition Using Smartphones Dataset; version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
